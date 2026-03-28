@@ -52,15 +52,6 @@ My passion for automation extends to managing my own infrastructure. I design, d
   <img src="./profile/top-langs.svg" width="400" alt="Top Languages" />
 </p>
 
-## 🚀 Featured Project
-
-<p align="center">
-  <a href="https://github.com/giuseppe99barchetta/SuggestArr">
-    <img src="./profile/pin-project.svg" width="810" alt="SuggestArr" />
-  </a>
-</p>
-
-
 ## 👋 Connect with me
 
 <p align="center">
