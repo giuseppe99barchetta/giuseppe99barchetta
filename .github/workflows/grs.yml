@@ -34,7 +34,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=suggestarr&theme=tokyonight
+          options: username=giuseppe99barchetta&repo=suggestarr&theme=tokyonight
           path: profile/pin-project.svg
           token: ${{ secrets.MY_PAT }}
 
