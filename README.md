@@ -2,29 +2,50 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=7AA2F7&center=true&vCenter=true&width=700&height=100&lines=GIUSEPPE+BARCHETTA;FULL+STACK+DEV;OPEN+SOURCE+ENTHUSIAST" alt="Typing SVG" />
 </p>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=giuseppe99barchetta&theme=tokyonight&no-frame=true&margin-w=15&column=4" alt="github trophy" />
+  <img src="https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=for-the-badge&color=7aa2f7&label=SUGGESTARR+STARS" />
+  <img src="https://img.shields.io/github/followers/giuseppe99barchetta?style=for-the-badge&color=9ece6a&label=FOLLOWERS" />
+  <img src="https://img.shields.io/badge/CONTRIBUTIONS-4k%2B-bb9af7?style=for-the-badge" />
 </p>
 <p align="center">
   Hi there! I'm a developer focused on building efficient, automated solutions. I enjoy solving complex backend problems and crafting smooth frontend experiences. My work on <b>SuggestArr</b> showcases my commitment to creating tools that people love and use.
 </p>
 
-## 🛠️ My Tech Stack
+## 🛠️ Tech Stack & Skills
 
 <p align="center">
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/sql-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/githubactions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## 📊 GitHub Analytics (Smart & Automated)
+## 🖥️ Self-Hosting & DevOps Laboratory
+
+My passion for automation extends to managing my own infrastructure. I design, deploy, and self-host a wide array of services, with experience in:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/proxmox-%23E74C3C.svg?style=flat&logo=proxmox&logoColor=white" alt="Proxmox" />
+  <img src="https://img.shields.io/badge/jellyfin-%23000b25.svg?style=flat&logo=jellyfin&logoColor=5cd4df" alt="Jellyfin" />
+  <img src="https://img.shields.io/badge/nginx%20proxy%20manager-%23ccebff?style=flat&logo=nginx&logoColor=black" alt="NPM" />
+  <img src="https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=flat&logo=home-assistant&logoColor=white" alt="Home Assistant" />
+  <img src="https://img.shields.io/badge/pihole-%2396060C.svg?style=flat&logo=pi-hole&logoColor=white" alt="Pi-hole" />
+  <img src="https://img.shields.io/badge/glinet-%2349e5d7?style=flat&logo=gl.inet&logoColor=black" alt="GL-iNet" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/vaultwarden-%232185D0.svg?style=flat&logo=bitwarden&logoColor=white" alt="Vaultwarden" />
+  <img src="https://img.shields.io/badge/uptime%20kuma-%23c6f4b6?style=flat&logo=uptime-kuma&logoColor=black" alt="Uptime Kuma" />
+  <img src="https://img.shields.io/badge/immich-%23030206.svg?style=flat&logo=immich&logoColor=white" alt="Immich" />
+</p>
+
+## 📊 GitHub Analytics
 
 <p align="center">
   <img src="./profile/stats.svg" width="400" alt="Overall Stats" />
