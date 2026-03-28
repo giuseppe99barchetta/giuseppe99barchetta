@@ -14,37 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 1. Card Statistiche Principali (con icone e conteggio privati)
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: >
-            username=${{ github.repository_owner }}
-            &show_icons=true
-            &count_private=true
-            &theme=tokyonight
-            &include_all_commits=true
-            &border_radius=10
+          options: username=giuseppe99barchetta&show_icons=true&count_private=true&theme=tokyonight&include_all_commits=true&border_radius=10
           path: profile/stats.svg
           token: ${{ secrets.MY_PAT }}
-
-      # 2. Card Linguaggi (Layout compatto, i tuoi top 6)
+          
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: >
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &langs_count=6
-            &theme=tokyonight
-            &border_radius=10
+          options: username=giuseppe99barchetta&layout=compact&langs_count=6&theme=tokyonight&border_radius=10
           path: profile/top-langs.svg
           token: ${{ secrets.MY_PAT }}
 
-      # 3. Card Extra (Esempio: Una repository specifica che vuoi "pinnare")
-      # Sostituisci 'NOME_REPO' con il tuo progetto migliore!
       - name: Generate pin card
         uses: readme-tools/github-readme-stats-action@v1
         with:
