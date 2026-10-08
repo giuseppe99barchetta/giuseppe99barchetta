@@ -2,6 +2,8 @@
 
 <img src="./assets/terminal-header.svg" alt="Terminal introducing Giuseppe Barchetta, full-stack developer and homelab nerd" width="980" />
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1300&color=9ECE6A&center=true&vCenter=true&width=820&height=42&lines=%24+docker+compose+up+-d;%24+git+commit+-m+%22one+last+fix%22;%24+ssh+giuseppe%40homelab" alt="Animated terminal commands: docker compose up, git commit one last fix, ssh giuseppe at homelab" width="820" />
+
 <!-- Yes, this is a GitHub README. No, I couldn't resist making it look like a terminal. -->
 
 [![SuggestArr stars](https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=flat-square&logo=github&label=SuggestArr%20stars&color=7aa2f7)](https://github.com/giuseppe99barchetta/SuggestArr)
