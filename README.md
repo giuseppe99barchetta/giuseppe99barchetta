@@ -1,99 +1,113 @@
 <div align="center">
 
-# Giuseppe Barchetta
+<img src="./assets/terminal-header.svg" alt="Terminal introducing Giuseppe Barchetta, full-stack developer and homelab nerd" width="980" />
 
-**Full-stack developer · Open-source maintainer · Self-hosting enthusiast**
-
-*Build it. Automate it. Keep it running.*
-
-I build practical software that connects systems, removes repetitive work, and makes complex things easier to use.
+<!-- Yes, this is a GitHub README. No, I couldn't resist making it look like a terminal. -->
 
 [![SuggestArr stars](https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=flat-square&logo=github&label=SuggestArr%20stars&color=7aa2f7)](https://github.com/giuseppe99barchetta/SuggestArr)
 [![GitHub followers](https://img.shields.io/github/followers/giuseppe99barchetta?style=flat-square&logo=github&label=Followers&color=9ece6a)](https://github.com/giuseppe99barchetta?tab=followers)
+[![Open source](https://img.shields.io/badge/open--source-enjoyer-bb9af7?style=flat-square&logo=github)](https://github.com/giuseppe99barchetta?tab=repositories)
+![Self-hosting](https://img.shields.io/badge/hosting-self--hosted-73daca?style=flat-square&logo=linux&logoColor=white)
 
-[Explore my projects](https://github.com/giuseppe99barchetta?tab=repositories) · [Connect on LinkedIn](https://www.linkedin.com/in/giuseppe-barchetta)
+**I build things, automate them, then find new things to automate.**
 
 </div>
 
----
+## `$ whoami`
 
-## A little about me
+Hey, I'm **Giuseppe** 👋 — a full-stack developer and incurable tinkerer.
 
-I like solving problems end to end: designing the API, building the interface, automating the workflow, and making sure it runs reliably.
+I love the kind of projects that start with *“why doesn't this exist?”* and end with a new repo, a Docker container, and probably a dashboard nobody asked for.
 
-A lot of what I build starts in my own homelab. When an everyday problem needs a better tool, I try to build one — and when it might help someone else, I share it as open source.
+I'm into **backend-heavy apps, polished interfaces, media automation, Home Assistant, APIs, and self-hosted infrastructure**. I like understanding how things work all the way down — not just getting them to work once.
 
-My sweet spot is where **backend engineering**, **automation**, and **product experience** meet.
+> If it has an API, there's a good chance I'll try to automate it.
 
-## Selected projects
+## `$ ls ~/projects --featured`
 
-### [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) — smarter media discovery
+### `./SuggestArr` · [source code →](https://github.com/giuseppe99barchetta/SuggestArr)
 
-An open-source app that turns viewing history from **Jellyfin, Plex, and Emby** into personalized movie and TV recommendations and automated requests. Includes scheduling, user-aware workflows, a web UI, and optional AI-powered discovery.
+**The main quest.** Open-source media discovery and automation for **Jellyfin, Plex, and Emby**, turning watch history into recommendations and requests — with scheduled jobs, a web UI, and optional AI-powered suggestions.
 
-**Focus:** full-stack development · API integrations · automation · maintainable open source
+[![Stars](https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=flat-square&logo=github&color=7aa2f7)](https://github.com/giuseppe99barchetta/SuggestArr/stargazers)
+[![Docker pulls](https://img.shields.io/docker/pulls/ciuse99/suggestarr?style=flat-square&logo=docker&label=Docker%20pulls&color=73daca)](https://hub.docker.com/r/ciuse99/suggestarr)
 
-### [MediaFlowrr](https://github.com/giuseppe99barchetta/MediaFlowrr) — organize media automatically
+### `./MediaFlowrr` · [source code →](https://github.com/giuseppe99barchetta/MediaFlowrr)
 
-A Python tool that identifies downloaded movies and shows using TMDb metadata, then renames and organizes them into clean media libraries. Designed for scheduled jobs and containerized deployments.
+**Because messy download folders are a bug.** Uses TMDb metadata to detect, rename, and organize movies and TV shows. Python, scheduled jobs, and Docker.
 
-**Focus:** Python · file processing · external APIs · Docker
+### `./home_maintenance` · [source code →](https://github.com/giuseppe99barchetta/home_maintenance)
 
-### [Home Maintenance](https://github.com/giuseppe99barchetta/home_maintenance) — recurring tasks in Home Assistant
+**Yes, I automated chores too.** A Home Assistant integration for recurring maintenance, reminders, history, NFC task completion, and a responsive management panel.
 
-A custom Home Assistant integration with a responsive management panel for maintenance schedules, task history, reminders, NFC-based completion, and automation hooks.
+### `./FordConnect-HA` · [source code →](https://github.com/giuseppe99barchetta/FordConnect-HA)
 
-**Focus:** Home Assistant · integrations · dashboard UX · event-driven automation
+**The car is part of the smart home now.** Home Assistant integration built on Ford's official FordConnect API, with OAuth, vehicle telemetry, and privacy-conscious diagnostics.
 
-### [Ford Connect for Home Assistant](https://github.com/giuseppe99barchetta/FordConnect-HA) — vehicle data, at home
+<details>
+<summary><b>📂 More repos?</b> There's always another side quest.</summary>
 
-A community integration connecting the **official FordConnect API** to Home Assistant, with OAuth authentication, capability-aware vehicle telemetry, and privacy-conscious diagnostics.
+<br>
 
-**Focus:** OAuth · REST APIs · data modeling · resilient integrations
+Check out [all my public repositories](https://github.com/giuseppe99barchetta?tab=repositories) — experiments, integrations, bots, utilities, and whatever rabbit hole I'm exploring next.
 
-[**Browse more public repositories →**](https://github.com/giuseppe99barchetta?tab=repositories)
+</details>
 
-## How I approach engineering
+## `$ cat ~/.config/stack.yml`
 
-- **Own the full lifecycle.** From data model and API design to frontend details, deployment, and documentation.
-- **Automate the boring parts.** Build repeatable workflows that reduce manual work without hiding what's happening.
-- **Design for real use.** Clear interfaces, useful diagnostics, sensible defaults, and predictable failure handling.
-- **Learn by running things.** My self-hosted environment is where I experiment, troubleshoot, monitor, and improve systems firsthand.
+```yaml
+languages:      [Python, JavaScript, TypeScript, Java, SQL]
+backend:        [FastAPI, Spring Boot, PostgreSQL, Redis]
+frontend:       [Vue, React, Next.js]
+devops:         [Docker, Linux, GitHub Actions, Proxmox]
+automation:     [Home Assistant, MQTT, REST APIs]
+debug_strategy: "one more log line"
+```
 
-## Tools I work with
+## `$ tree ~/homelab -L 2`
 
-| Area | Technologies |
-| --- | --- |
-| **Backend & data** | Python · FastAPI · Java · Spring Boot · PostgreSQL · SQL · Redis |
-| **Frontend** | JavaScript · TypeScript · Vue · React · Next.js |
-| **Infrastructure** | Docker · Linux · GitHub Actions · Proxmox · ZFS |
-| **Integrations & automation** | REST APIs · Home Assistant · MQTT · self-hosted services |
+This is where ideas turn into services, experiments turn into automations, and *“I'll just change one setting”* turns into an evening.
 
-## Beyond the code: my homelab
+```text
+homelab/
+├── hypervisor/       Proxmox · VMs · LXC · ZFS
+├── containers/       Docker · self-hosted services
+├── smart-home/       Home Assistant · Zigbee · MQTT
+├── media/            Jellyfin · media automation
+├── network/          GL.iNet · VPN · reverse proxy
+└── reliability/      monitoring · backups · UPS
+```
 
-I run a **Proxmox-based homelab** to experiment with containers, virtual machines, storage, networking, monitoring, backups, and smart-home automation.
+I enjoy connecting systems that weren't designed to talk to each other, learning by running real infrastructure, and making dashboards for absolutely everything.
 
-It's more than a collection of services: it's a place to test ideas against real operational problems — reliability, observability, security, and the little UX details that make technology pleasant to live with.
-
-## GitHub activity
+## `$ git stats --human`
 
 <div align="center">
-  <a href="https://github.com/giuseppe99barchetta">
-    <img src="./profile/stats.svg" width="440" alt="GitHub activity statistics" />
-  </a>
-  <a href="https://github.com/giuseppe99barchetta?tab=repositories">
-    <img src="./profile/top-langs.svg" width="300" alt="Most-used repository languages" />
-  </a>
+  <img src="./profile/stats.svg" alt="GitHub profile statistics" width="455" />
+  <img src="./profile/top-langs.svg" alt="Top languages across GitHub repositories" width="300" />
 </div>
 
+<sub>Repository languages don't tell the whole story — but I still like the graphs.</sub>
+
+## `$ cat ~/currently-running.txt`
+
+```text
+[RUNNING] Building open-source tools
+[RUNNING] Self-hosting more things than necessary
+[RUNNING] Automating tasks that take 30 seconds manually
+[RUNNING] Tweaking Home Assistant dashboards
+[PENDING]  "Okay, this is the last improvement"
+```
+
 ---
 
 <div align="center">
 
-**Have an idea, feedback, or an interesting technical problem?**
+**`giuseppe@homelab:~$`** `echo "Thanks for stopping by!"`
 
-I'm always glad to connect with people building useful things.
+[![GitHub](https://img.shields.io/badge/GitHub-181825?style=for-the-badge&logo=github&logoColor=white)](https://github.com/giuseppe99barchetta)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giuseppe-barchetta)
 
-[GitHub](https://github.com/giuseppe99barchetta) · [LinkedIn](https://www.linkedin.com/in/giuseppe-barchetta)
+*Build it. Automate it. Keep it running.*
 
 </div>
