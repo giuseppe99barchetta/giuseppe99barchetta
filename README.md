@@ -1,64 +1,115 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=7AA2F7&center=true&vCenter=true&width=700&height=100&lines=GIUSEPPE+BARCHETTA;FULL+STACK+DEV;OPEN+SOURCE+ENTHUSIAST" alt="Typing SVG" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=for-the-badge&color=7aa2f7&label=SUGGESTARR+STARS" />
-  <img src="https://img.shields.io/github/followers/giuseppe99barchetta?style=for-the-badge&color=9ece6a&label=FOLLOWERS" />
-  <img src="https://img.shields.io/badge/CONTRIBUTIONS-4k%2B-bb9af7?style=for-the-badge" />
-</p>
-<p align="center">
-  Hi there! I'm a developer focused on building efficient, automated solutions. I enjoy solving complex backend problems and crafting smooth frontend experiences. My work on <b>SuggestArr</b> showcases my commitment to creating tools that people love and use.
-</p>
+<div align="center">
 
-## 🛠️ Tech Stack & Skills
+<img src="./assets/terminal-header.svg" alt="Terminal introducing Giuseppe Barchetta, full-stack developer and homelab nerd" width="980" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/sql-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1300&color=9ECE6A&center=true&vCenter=true&width=820&height=42&lines=%24+docker+compose+up+-d;%24+git+commit+-m+%22one+last+fix%22;%24+ssh+giuseppe%40homelab" alt="Animated terminal commands: docker compose up, git commit one last fix, ssh giuseppe at homelab" width="820" />
 
-## 🖥️ Self-Hosting & DevOps Laboratory
+<!-- Yes, this is a GitHub README. No, I couldn't resist making it look like a terminal. -->
 
-My passion for automation extends to managing my own infrastructure. I design, deploy, and self-host a wide array of services, with experience in:
+[![SuggestArr stars](https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=flat-square&logo=github&label=SuggestArr%20stars&color=7aa2f7)](https://github.com/giuseppe99barchetta/SuggestArr)
+[![GitHub followers](https://img.shields.io/github/followers/giuseppe99barchetta?style=flat-square&logo=github&label=Followers&color=9ece6a)](https://github.com/giuseppe99barchetta?tab=followers)
+[![Open source](https://img.shields.io/badge/open--source-enjoyer-bb9af7?style=flat-square&logo=github)](https://github.com/giuseppe99barchetta?tab=repositories)
+![Self-hosting](https://img.shields.io/badge/hosting-self--hosted-73daca?style=flat-square&logo=linux&logoColor=white)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/proxmox-%23E74C3C.svg?style=flat&logo=proxmox&logoColor=white" alt="Proxmox" />
-  <img src="https://img.shields.io/badge/jellyfin-%23000b25.svg?style=flat&logo=jellyfin&logoColor=5cd4df" alt="Jellyfin" />
-  <img src="https://img.shields.io/badge/nginx%20proxy%20manager-%23ccebff?style=flat&logo=nginx&logoColor=black" alt="NPM" />
-  <img src="https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=flat&logo=home-assistant&logoColor=white" alt="Home Assistant" />
-  <img src="https://img.shields.io/badge/pihole-%2396060C.svg?style=flat&logo=pi-hole&logoColor=white" alt="Pi-hole" />
-  <img src="https://img.shields.io/badge/glinet-%2349e5d7?style=flat&logo=gl.inet&logoColor=black" alt="GL-iNet" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/vaultwarden-%232185D0.svg?style=flat&logo=bitwarden&logoColor=white" alt="Vaultwarden" />
-  <img src="https://img.shields.io/badge/uptime%20kuma-%23c6f4b6?style=flat&logo=uptime-kuma&logoColor=black" alt="Uptime Kuma" />
-  <img src="https://img.shields.io/badge/immich-%23030206.svg?style=flat&logo=immich&logoColor=white" alt="Immich" />
-</p>
+**I build things, automate them, then find new things to automate.**
 
-## 📊 GitHub Analytics
+</div>
 
-<p align="center">
-  <img src="./profile/stats.svg" width="400" alt="Overall Stats" />
-  <img src="./profile/top-langs.svg" width="400" alt="Top Languages" />
-</p>
+## `$ whoami`
 
-## 👋 Connect with me
+Hey, I'm **Giuseppe** 👋 — a full-stack developer and incurable tinkerer.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/giuseppe-barchetta">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/giuseppe99barchetta">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+I love the kind of projects that start with *“why doesn't this exist?”* and end with a new repo, a Docker container, and probably a dashboard nobody asked for.
+
+I'm into **backend-heavy apps, polished interfaces, media automation, Home Assistant, APIs, and self-hosted infrastructure**. I like understanding how things work all the way down — not just getting them to work once.
+
+> If it has an API, there's a good chance I'll try to automate it.
+
+## `$ ls ~/projects --featured`
+
+### `./SuggestArr` · [source code →](https://github.com/giuseppe99barchetta/SuggestArr)
+
+**The main quest.** Open-source media discovery and automation for **Jellyfin, Plex, and Emby**, turning watch history into recommendations and requests — with scheduled jobs, a web UI, and optional AI-powered suggestions.
+
+[![Stars](https://img.shields.io/github/stars/giuseppe99barchetta/SuggestArr?style=flat-square&logo=github&color=7aa2f7)](https://github.com/giuseppe99barchetta/SuggestArr/stargazers)
+[![Docker pulls](https://img.shields.io/docker/pulls/ciuse99/suggestarr?style=flat-square&logo=docker&label=Docker%20pulls&color=73daca)](https://hub.docker.com/r/ciuse99/suggestarr)
+
+### `./MediaFlowrr` · [source code →](https://github.com/giuseppe99barchetta/MediaFlowrr)
+
+**Because messy download folders are a bug.** Uses TMDb metadata to detect, rename, and organize movies and TV shows. Python, scheduled jobs, and Docker.
+
+### `./home_maintenance` · [source code →](https://github.com/giuseppe99barchetta/home_maintenance)
+
+**Yes, I automated chores too.** A Home Assistant integration for recurring maintenance, reminders, history, NFC task completion, and a responsive management panel.
+
+### `./FordConnect-HA` · [source code →](https://github.com/giuseppe99barchetta/FordConnect-HA)
+
+**The car is part of the smart home now.** Home Assistant integration built on Ford's official FordConnect API, with OAuth, vehicle telemetry, and privacy-conscious diagnostics.
+
+<details>
+<summary><b>📂 More repos?</b> There's always another side quest.</summary>
+
+<br>
+
+Check out [all my public repositories](https://github.com/giuseppe99barchetta?tab=repositories) — experiments, integrations, bots, utilities, and whatever rabbit hole I'm exploring next.
+
+</details>
+
+## `$ cat ~/.config/stack.yml`
+
+```yaml
+languages:      [Python, JavaScript, TypeScript, Java, SQL]
+backend:        [FastAPI, Spring Boot, PostgreSQL, Redis]
+frontend:       [Vue, React, Next.js]
+devops:         [Docker, Linux, GitHub Actions, Proxmox]
+automation:     [Home Assistant, MQTT, REST APIs]
+debug_strategy: "one more log line"
+```
+
+## `$ tree ~/homelab -L 2`
+
+This is where ideas turn into services, experiments turn into automations, and *“I'll just change one setting”* turns into an evening.
+
+```text
+homelab/
+├── hypervisor/       Proxmox · VMs · LXC · ZFS
+├── containers/       Docker · self-hosted services
+├── smart-home/       Home Assistant · Zigbee · MQTT
+├── media/            Jellyfin · media automation
+├── network/          GL.iNet · VPN · reverse proxy
+└── reliability/      monitoring · backups · UPS
+```
+
+I enjoy connecting systems that weren't designed to talk to each other, learning by running real infrastructure, and making dashboards for absolutely everything.
+
+## `$ git stats --human`
+
+<div align="center">
+  <img src="./profile/stats.svg" alt="GitHub profile statistics" width="455" />
+  <img src="./profile/top-langs.svg" alt="Top languages across GitHub repositories" width="300" />
+</div>
+
+<sub>Repository languages don't tell the whole story — but I still like the graphs.</sub>
+
+## `$ cat ~/currently-running.txt`
+
+```text
+[RUNNING] Building open-source tools
+[RUNNING] Self-hosting more things than necessary
+[RUNNING] Automating tasks that take 30 seconds manually
+[RUNNING] Tweaking Home Assistant dashboards
+[PENDING]  "Okay, this is the last improvement"
+```
+
+---
+
+<div align="center">
+
+**`giuseppe@homelab:~$`** `echo "Thanks for stopping by!"`
+
+[![GitHub](https://img.shields.io/badge/GitHub-181825?style=for-the-badge&logo=github&logoColor=white)](https://github.com/giuseppe99barchetta)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giuseppe-barchetta)
+
+*Build it. Automate it. Keep it running.*
+
+</div>
