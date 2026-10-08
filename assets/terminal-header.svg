@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="334" viewBox="0 0 980 334" role="img" aria-labelledby="title desc">
+  <title id="title">Giuseppe Barchetta — developer terminal</title>
+  <desc id="desc">A terminal window presenting Giuseppe as a full-stack developer, open-source builder and self-hosting enthusiast.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#141826"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="60%" stop-color="#bb9af7"/>
+      <stop offset="100%" stop-color="#73daca"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="976" height="330" rx="16" fill="url(#bg)" stroke="#333a55" stroke-width="2"/>
+  <path d="M18 2h944a16 16 0 0 1 16 16v42H2V18A16 16 0 0 1 18 2" fill="#1f2536"/>
+  <path d="M2 60h976" stroke="#333a55"/>
+  <circle cx="30" cy="31" r="7" fill="#f7768e"/>
+  <circle cx="54" cy="31" r="7" fill="#e0af68"/>
+  <circle cx="78" cy="31" r="7" fill="#9ece6a"/>
+  <text x="490" y="37" text-anchor="middle" fill="#a9b1d6" font-size="16" font-family="JetBrains Mono, Fira Code, Consolas, monospace">giuseppe@homelab: ~/projects</text>
+  <rect x="25" y="76" width="5" height="216" rx="2.5" fill="url(#accent)" opacity=".9"/>
+  <g font-family="JetBrains Mono, Fira Code, Consolas, monospace">
+    <text x="51" y="111" font-size="19" fill="#9ece6a">❯</text>
+    <text x="81" y="111" font-size="19" fill="#7aa2f7">whoami</text>
+    <text x="51" y="144" font-size="24" font-weight="700" fill="#c0caf5">Giuseppe Barchetta</text>
+    <text x="51" y="170" font-size="17" fill="#a9b1d6">full-stack dev // open-source builder // homelab nerd</text>
+    <text x="51" y="216" font-size="19" fill="#9ece6a">❯</text>
+    <text x="81" y="216" font-size="19" fill="#7aa2f7">cat ~/interests.txt</text>
+    <text x="51" y="245" font-size="17" fill="#bb9af7">automation  ·  self-hosting  ·  APIs  ·  Home Assistant</text>
+    <text x="51" y="281" font-size="19" fill="#9ece6a">❯</text>
+    <text x="81" y="281" font-size="19" fill="#7aa2f7">./build-it-because-i-can.sh</text>
+    <text x="925" y="312" font-size="13" text-anchor="end" fill="#565f89">status: probably tinkering</text>
+  </g>
+</svg>
