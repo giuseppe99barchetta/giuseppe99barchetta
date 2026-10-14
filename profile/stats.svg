@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Giuseppe Barchetta's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1421, Total Commits  : 7126, Total PRs: 434, Total Issues: 335, Contributed to (last year): 15</desc>
+        <desc id="descId">Total Stars Earned: 1420, Total Commits  : 7145, Total PRs: 434, Total Issues: 335, Contributed to (last year): 15</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 14.227046253310938;
+        stroke-dashoffset: 14.22505990408577;
       }
     }
   
