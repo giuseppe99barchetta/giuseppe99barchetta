@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install font subsetter
+        run: pip install --quiet fonttools brotli
+
       - name: Render SVG terminals
         env:
           # MY_PAT also counts private contributions; GITHUB_TOKEN is the fallback.
