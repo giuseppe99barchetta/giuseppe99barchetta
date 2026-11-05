@@ -1,0 +1,45 @@
+name: Update profile terminals
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-terminals-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font subsetter
+        run: pip install --quiet fonttools brotli
+
+      - name: Render SVG terminals
+        env:
+          # MY_PAT also counts private contributions; GITHUB_TOKEN is the fallback.
+          GH_TOKEN: ${{ secrets.MY_PAT || secrets.GITHUB_TOKEN }}
+        run: python scripts/profile_gen.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: refresh profile terminals" || exit 0
+          git pull --rebase
+          git push
