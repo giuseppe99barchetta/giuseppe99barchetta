@@ -3,7 +3,13 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    paths:
+      - ".github/workflows/snake.yml"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,6 +21,7 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-phosphor.svg?palette=github-dark&color_snake=#b8ffca&color_dots=#0a1f10,#0e4429,#106b2e,#1d9e46,#39ff6a
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
