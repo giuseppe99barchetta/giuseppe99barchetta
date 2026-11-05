@@ -448,7 +448,7 @@ def card_projects(data: dict) -> str:
     s, t0 = typed(x0, y, f"ls -l ~/projects --sort=stars | head -{len(repos)}", 0.3, uid="pj")
     body.append(s)
     y += LH + 10
-    cols = {"name": 0, "stars": 25, "forks": 33, "lang": 40, "desc": 52}
+    cols = {"name": 0, "stars": 27, "forks": 35, "lang": 42, "desc": 54}
     body.append(t(x0, y, f"total {len(own_repos(data))}", "d", t0))
     y += LH
     max_desc = int((W - 2 * PAD) / CW) - cols["desc"]
@@ -458,7 +458,8 @@ def card_projects(data: dict) -> str:
         desc = (r["description"] or "").strip().replace("\n", " ")
         if len(desc) > max_desc:
             desc = desc[: max_desc - 1].rstrip() + "…"
-        g = [t(x0 + cols["name"] * CW, yy, r["name"], "b w")]
+        name = r["name"] if len(r["name"]) <= 25 else r["name"][:24] + "…"
+        g = [t(x0 + cols["name"] * CW, yy, name, "b w")]
         g.append(star_icon(x0 + cols["stars"] * CW + 4, yy - 5))
         g.append(t(x0 + (cols["stars"] + 1.6) * CW, yy, fmt_k(r["stargazers_count"]), ""))
         g.append(fork_icon(x0 + cols["forks"] * CW + 4, yy - 5))
