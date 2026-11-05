@@ -397,32 +397,46 @@ def fork_icon(x: float, y: float) -> str:
 # Monogram: pixel "GB" with six rainbow stripes
 # --------------------------------------------------------------------------
 GLYPHS = {
-    "G": ["..####..", ".##..##.", "##....##", "##......", "##......", "##......",
-          "##..####", "##....##", "##....##", "##....##", ".##..##.", "..####.."],
-    "B": ["######..", "##...##.", "##....##", "##....##", "##...##.", "######..",
-          "##...##.", "##....##", "##....##", "##....##", "##...##.", "######.."],
+    "G": ["..#####..", ".#######.", "###...###", "###......", "###......", "###..####",
+          "###..####", "###...###", "###...###", "###...###", ".#######.", "..#####.."],
+    "B": ["#######..", "########.", "###...###", "###...###", "###..###.", "#######..",
+          "########.", "###...###", "###...###", "###...###", "########.", "#######.."],
 }
 
 
-def monogram(x: float, y: float, px: float, begin: float) -> tuple[str, float, float]:
-    rows = [GLYPHS["G"][i] + ".." + GLYPHS["B"][i] for i in range(12)]
+def ascii_monogram() -> list[str]:
+    """The GB bitmap drawn with neofetch-style characters (2 chars per pixel):
+    solid fill inside, lighter glyphs on the edges and corners."""
+    rows = [GLYPHS["G"][i] + "." + GLYPHS["B"][i] for i in range(12)]
+
+    def on(r: int, c: int) -> bool:
+        return 0 <= r < len(rows) and 0 <= c < len(rows[r]) and rows[r][c] == "#"
+
     out = []
-    for stripe in range(6):
-        rects = []
-        for r in (stripe * 2, stripe * 2 + 1):
-            row, c = rows[r], 0
-            while c < len(row):  # merge horizontal runs into one rect
-                if row[c] == "#":
-                    s = c
-                    while c < len(row) and row[c] == "#":
-                        c += 1
-                    rects.append(f'<rect x="{x + s * px:.1f}" y="{y + r * px:.1f}" '
-                                 f'width="{(c - s) * px:.1f}" height="{px:.1f}"/>')
-                else:
-                    c += 1
-        out.append(f'<g fill="{RAINBOW[stripe]}" class="slide" style="animation-delay:{begin + stripe * .07:.2f}s">'
-                   f'{"".join(rects)}</g>')
-    return "".join(out), len(rows[0]) * px, 12 * px
+    for r, row in enumerate(rows):
+        line = []
+        for c, ch in enumerate(row):
+            if ch != "#":
+                line.append("  ")
+                continue
+            top, bot, lft, rgt = on(r - 1, c), on(r + 1, c), on(r, c - 1), on(r, c + 1)
+            edge = "." if not top else ("'" if not bot else None)
+            left = (edge or "X") if not lft else "M"
+            right = (edge or "d") if not rgt else "M"
+            line.append(left + right)
+        out.append("".join(line).rstrip())
+    return out
+
+
+def monogram(x: float, y: float, begin: float) -> tuple[str, int]:
+    """Rainbow ASCII monogram, two text lines per stripe, aligned to the info lines."""
+    lines = ascii_monogram()
+    out = []
+    for i, line in enumerate(lines):
+        col = RAINBOW[min(i // 2, 5)]
+        out.append(f'<text x="{x:.1f}" y="{y + i * LH:.1f}" class="w slide" '
+                   f'style="fill:{col};animation-delay:{begin + i * .04:.2f}s">{escape(line)}</text>')
+    return "".join(out), max(len(l) for l in lines)
 
 
 # --------------------------------------------------------------------------
@@ -462,13 +476,9 @@ def card_neofetch(data: dict, today: dt.date) -> str:
         info.append(("Flagship", f"{flag['name']} · {fmt_k(flag['stargazers_count'])} stars{extra}"))
 
     info_h = (len(info) + 4) * LH
-    px = 15.0
-    mono_w, mono_h = 18 * px, 12 * px
-    my = y - FS + (info_h - mono_h) / 2 - LH / 2
-    mono, _, _ = monogram(x0 + 6, my, px, t0)
+    mono, mono_cols = monogram(x0, y, t0)
     body.append(mono)
-
-    ix = x0 + mono_w + 50
+    ix = x0 + (mono_cols + 5) * CW
     kx = 11
     d = t0 + 0.2
     body.append(f'<text x="{ix:.1f}" y="{y:.1f}" class="r" style="animation-delay:{d:.2f}s">'
